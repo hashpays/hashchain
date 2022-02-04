@@ -99,7 +99,7 @@ import (
 )
 
 const (
-	AccountAddressPrefix = "cosmos"
+	AccountAddressPrefix = "hcx"
 	Name                 = "hashchain"
 )
 
