@@ -1,0 +1,14 @@
+syntax = "proto3";
+package hashpays.hashchain.hashchain;
+
+import "gogoproto/gogo.proto";
+import "hashchain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/hashpays/hashchain/x/hashchain/types";
+
+// GenesisState defines the hashchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
