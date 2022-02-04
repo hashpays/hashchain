@@ -1,5 +1,5 @@
-# hashchain
-**hashchain** is a blockchain built using Cosmos SDK and Tendermint and created with [Starport](https://starport.com).
+# HASHCHAIN
+**HASHCHAIN** is a blockchain built using Cosmos SDK and Tendermint and created with [Starport](https://starport.com).
 
 ## Get started
 
@@ -41,7 +41,6 @@ To install the latest version of your blockchain node's binary, execute the foll
 ```
 curl https://get.starport.com/hashpays/hashchain@latest! | sudo bash
 ```
-`hashpays/hashchain` should match the `username` and `repo_name` of the Github repository to which the source code was pushed. Learn more about [the install process](https://github.com/allinbits/starport-installer).
 
 ## Learn more
 
